@@ -7,7 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b732e326-2534-4f24-b2f8-3993906986c7" name="Changes" comment="Added a sphere and some minor comments" />
+    <list default="true" id="b732e326-2534-4f24-b2f8-3993906986c7" name="Changes" comment="Comment and converted the ppm to PNG with Krita">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.raytracer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raytracer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/raytracer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/raytracer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/raytracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/raytracer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/raytracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/raytracer.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +48,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vector" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Martina Desktop/source/repos/CGPortfolio/raytracer/raytracer/raytracer.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Martina Desktop/source/repos/CGPortfolio/raytracer/raytracer/raytracer.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -97,7 +108,7 @@
       <updated>1755529381775</updated>
       <workItem from="1755529382877" duration="557000" />
       <workItem from="1755530947707" duration="142000" />
-      <workItem from="1755670890367" duration="19043000" />
+      <workItem from="1755670890367" duration="20087000" />
     </task>
     <task id="LOCAL-00001" summary="First commit raytracer">
       <option name="closed" value="true" />
@@ -131,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755701328342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Comment and converted the ppm to PNG with Krita">
+      <option name="closed" value="true" />
+      <created>1755702339736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755702339736</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +164,8 @@
     <MESSAGE value="Default raytracer program." />
     <MESSAGE value="Fixed refraction issue" />
     <MESSAGE value="Added a sphere and some minor comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a sphere and some minor comments" />
+    <MESSAGE value="Comment and converted the ppm to PNG with Krita" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment and converted the ppm to PNG with Krita" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

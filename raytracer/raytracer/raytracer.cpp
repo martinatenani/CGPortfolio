@@ -129,7 +129,7 @@ Vec3f trace(
     bool inside = false;
     if (raydir.dot(nhit)>0) nhit = -nhit, inside = true; //we are inside the sphere (?)
 
-    //Sphere is reflactive and/or transparent (can be reflective but not transparent but not transparent
+    //Sphere is reflective and/or transparent (can be reflective but not transparent but not transparent
     // and not reflective) we check first for reflections.
     if ((sphere->transparency > 0 || sphere->reflection > 0) && depth < MAX_RAY_DEPTH) {
         float facingratio = -raydir.dot(nhit);
@@ -139,7 +139,7 @@ Vec3f trace(
         Vec3f reflection = trace(phit + nhit * bias, refldir, spheres, depth + 1);
         Vec3f refraction = 0;
         //Sphere is also transparent. Compute refraction ray (transmission)
-        if (sphere->transparency) {
+        if (sphere->transparency>0) {
             float ior = 1.1, eta = (inside) ? ior : 1 / ior; // are we inside or outside the surface?
             float cosi = -nhit.dot(raydir);
             float k = 1 - eta * eta * (1 - cosi * cosi);
