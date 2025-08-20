@@ -7,12 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b732e326-2534-4f24-b2f8-3993906986c7" name="Changes" comment="Default raytracer program.">
+    <list default="true" id="b732e326-2534-4f24-b2f8-3993906986c7" name="Changes" comment="Fixed refraction issue">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.raytracer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raytracer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raytracer/raytracer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/raytracer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/untitled.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/untitled.ppm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/raytracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/raytracer.exe" afterDir="false" />
@@ -107,7 +108,7 @@
       <updated>1755529381775</updated>
       <workItem from="1755529382877" duration="557000" />
       <workItem from="1755530947707" duration="142000" />
-      <workItem from="1755670890367" duration="18176000" />
+      <workItem from="1755670890367" duration="18706000" />
     </task>
     <task id="LOCAL-00001" summary="First commit raytracer">
       <option name="closed" value="true" />
@@ -125,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755688274075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed refraction issue">
+      <option name="closed" value="true" />
+      <created>1755700731918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755700731918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First commit raytracer" />
     <MESSAGE value="Default raytracer program." />
-    <option name="LAST_COMMIT_MESSAGE" value="Default raytracer program." />
+    <MESSAGE value="Fixed refraction issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed refraction issue" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

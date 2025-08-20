@@ -4,7 +4,6 @@
 #include <fstream>
 #include <vector>
 #include <iostream>
-#include <cassert>
 
 #if defined __linux__ || defined __APPLE__
 //These values are already present on Linux and Apple
@@ -144,7 +143,7 @@ Vec3f trace(
             float ior = 1.1, eta = (inside) ? ior : 1 / ior; // are we inside or outside the surface?
             float cosi = -nhit.dot(raydir);
             float k = 1 - eta * eta * (1 - cosi * cosi);
-            Vec3f refrdir = raydir * eta + nhit * (eta *  cosi - sqrt(k));
+            Vec3f refrdir = raydir * eta + nhit * (eta *  cosi - sqrt(k)); //evaluate refraction redirection
             refrdir.normalize();
             refraction = trace(phit - nhit * bias, refrdir, spheres, depth + 1);
         }
@@ -225,9 +224,10 @@ int main(int argc, char **argv)
     // position, radius, surface color, reflectivity, transparency, emission color
     spheres.push_back(Sphere(Vec3f( 0.0,     -10004, -20), 10000, Vec3f(0.20, 0.20, 0.20), 0, 0.0)); //The plane holding the spheres
     spheres.push_back(Sphere(Vec3f( 0.0,      0, -20),     4, Vec3f(1.00, 0.32, 0.36), 1, 0.5));
+    spheres.push_back(Sphere(Vec3f( -4.0,      1, -25),     4, Vec3f(0.32, 1.00, 0.46), 0, 0.0));
     spheres.push_back(Sphere(Vec3f( 5.0,     -1, -15),     2, Vec3f(0.90, 0.76, 0.46), 1, 0.0));
     spheres.push_back(Sphere(Vec3f( 5.0,      0, -25),     3, Vec3f(0.65, 0.77, 0.97), 1, 0.0));
-    spheres.push_back(Sphere(Vec3f(-5.5,      0, -15),     3, Vec3f(0.90, 0.90, 0.90), 1, 0.0));
+    spheres.push_back(Sphere(Vec3f(-5.5,      0, -15),     3, Vec3f(0.90, 0.90, 0.90), 1, 0.5));
     // light
     spheres.push_back(Sphere(Vec3f( 0.0,     20, -30),     3, Vec3f(0.00, 0.00, 0.00), 0, 0.0, Vec3f(3)));
     render(spheres);
