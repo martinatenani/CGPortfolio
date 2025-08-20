@@ -201,7 +201,7 @@ void render(const std::vector<Sphere> &spheres)
             *pixel = trace(Vec3f(0),raydir, spheres, 0);
         }
     }
-    //Savign the result to a PPM image
+    //Saving the result to a PPM image
     std::ofstream ofs("./untitled.ppm", std::ios::out | std::ios::binary);
     ofs << "P6\n" << width << " " << height << "\n255\n";
     for (unsigned i = 0; i < width * height; ++i) {
