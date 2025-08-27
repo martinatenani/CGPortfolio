@@ -7,16 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b732e326-2534-4f24-b2f8-3993906986c7" name="Changes" comment="Comment and converted the ppm to PNG with Krita">
+    <list default="true" id="b732e326-2534-4f24-b2f8-3993906986c7" name="Changes" comment="Comments">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.raytracer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raytracer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/raytracer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/raytracer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/raytracer.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/raytracer/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/raytracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/raytracer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/raytracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/raytracer.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,21 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ Project.raytracer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CppCodeGenerationId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ Project.raytracer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CppCodeGenerationId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="raytracer" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -108,7 +100,8 @@
       <updated>1755529381775</updated>
       <workItem from="1755529382877" duration="557000" />
       <workItem from="1755530947707" duration="142000" />
-      <workItem from="1755670890367" duration="20087000" />
+      <workItem from="1755670890367" duration="20759000" />
+      <workItem from="1755859098749" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="First commit raytracer">
       <option name="closed" value="true" />
@@ -150,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755702339736</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1755703320235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755703320235</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +166,8 @@
     <MESSAGE value="Fixed refraction issue" />
     <MESSAGE value="Added a sphere and some minor comments" />
     <MESSAGE value="Comment and converted the ppm to PNG with Krita" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment and converted the ppm to PNG with Krita" />
+    <MESSAGE value="Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
